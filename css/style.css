@@ -1,0 +1,110 @@
+body{
+    /* Set line spacing */
+    line-height: 200%;
+}
+
+
+header, nav{
+    /* Set padding and margin */
+    padding: 5px;
+    margin: 10px;
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: aquamarine;
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+}
+
+a:visited{
+    /* Set color */
+    color: black;
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 10%;
+    text-decoration-color: darkgreen;
+}
+
+
+h1{
+   /*Set font and font size*/
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 30% 30% 30%;
+    justify-content:space-evenly;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    row-gap: 10px;
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
